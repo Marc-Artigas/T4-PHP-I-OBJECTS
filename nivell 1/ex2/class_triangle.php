@@ -2,7 +2,7 @@
 
     class Triangle extends Shape{
         public function areaTriangle(){
-            echo ($this->ample*$this->alt)/2;
+            echo "Si base = ".$this->ample." i altura = ".$this->alt.". Àrea del triangle = ".(($this->ample*$this->alt)/2)."<br>";
     }
 
 }

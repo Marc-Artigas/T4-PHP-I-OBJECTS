@@ -1,23 +1,25 @@
 <?php
 
+    require "class_triangle.php";
+    require "class_rectangle.php";
+
     class Shape{
         //atributs
         public $ample;
         public $alt;
         //mètodes
-        function __construct($ample,$alt){
-            $this->ample=$ample;
-            $this->alt=$alt;
-        }
-        public function print(){
-            echo $this->ample.'<br>';
-            echo $this->alt.'<br>';
-        }       
+        function __construct($atributAmple,$atributAlt){
+            $this->ample=$atributAmple;
+            $this->alt=$atributAlt;
+        }        
         
     }
      //creació objectes
         $triangle1=new Triangle('6','4');
-        $triangle1->area();
-        // $triangle1->area();
+        $triangle1->areaTriangle();
+
+        $rectangle1=new Rectangle('6','4');
+        $rectangle1->areaRectangle();
+        
 
 ?>
