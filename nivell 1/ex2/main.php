@@ -12,22 +12,12 @@
         public function print(){
             echo $this->ample.'<br>';
             echo $this->alt.'<br>';
-        }
-
-        // //prova
-        // public function areatriangle(){
-        //     echo ($this->ample*$this->alt)/2;
-        }
+        }       
         
     }
      //creació objectes
-        $triangle1=new Shape('6','4');
-        $triangle1->print();
-        // $triangle1->areatriangle();
-
-
-
-
-
+        $triangle1=new Triangle('6','4');
+        $triangle1->area();
+        // $triangle1->area();
 
 ?>
