@@ -4,24 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estils.css">
     <title>Formulario</title>
 </head>
 <body>
+    <div class="container">
+    <h4>Registre del client</h4>
    <form action="main.php" method="post">
         Número de compte:<br>
-        <input type="text" name="Número de compte"><br>
+        <input class="inputs" type="text" name="Número de compte"><br>
         Nom:<br>
-        <input type="text" name="Nom"><br>
+        <input class="inputs" type="text" name="Nom"><br>
         Cognom:<br>
-        <input type="text" name="Cognom"><br>
+        <input class="inputs" type="text" name="Cognom"><br>
         Saldo:<br>
-        <input type="number" name="Saldo"><br>
+        <input class="inputs" type="number" name="Saldo"><br>
+        <h4>Operació a realitzar</h4>
         Ingressar:<br>
-        <input type="number" name="Ingressar"><br>
+        <input class="inputs" type="number" name="Ingressar"><br>
         Retirar:<br>
-        <input type="number" name="Retirar"><br>
+        <input class="inputs" type="number" name="Retirar"><br>
         <br>
-        <input type="submit" value="Enviar">
+        <input class="enviar" type="submit" value="Enviar">
+    </div>
    </form>
 
 

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(166, 230, 230);
+}
+
+.container{
+    width: 400px;
+    background: cadetblue;
+    padding: 30px;
+    margin: auto;
+    margin-top:100px;
+    font-family: calibri;
+
+}
+        .container h4{
+        font-size: 24px;
+        margin: 10px;
+        }
+
+    .inputs{
+        background-color: rgb(175, 193, 194);
+    }
+
+    .enviar{
+        font-size: 15px;
+        background-color: silver;
+        padding: 10px;
+    }
+        

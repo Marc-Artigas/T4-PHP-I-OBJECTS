@@ -11,14 +11,10 @@
 <?php
     class Account{
         //atributs
-        public $numCompte;
-        public $nom;
-        public $cognom;
-        public $saldoActual;
-
-        
-
-
+        private $numCompte;
+        private $nom;
+        private $cognom;
+        private $saldoActual;
 
 
         //constructor
@@ -65,13 +61,7 @@
 
         //objectes
         $client1 = new Account ('($_POST["Número de compte"])', '($_POST["Nom"])', '($_POST["Cognom"])', '($_POST["Saldo"])');
-        
-        // $client1 -> deposit(1);
-        // $client1 -> deposit(4);
-        // $client1 -> deposit(4);
-        // $client1 -> withdraw(1);
-        // $client1 -> withdraw(4);
-        // $client1 -> deposit()
+             
         if(($_POST["Ingressar"])>0){
         $client1 -> deposit($_POST["Ingressar"]);
     } else {
